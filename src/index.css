@@ -78,7 +78,6 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Pequeña interacción al pasar el mouse por cualquier sección */
 section:hover {
   transform: translateY(-2px);
   box-shadow: var(--sombra-interactiva);
@@ -172,7 +171,6 @@ button:active {
   transform: translateY(0);
 }
 
-/* El formulario ya no necesita ser un cuadro extra porque la sección ya lo es */
 form {
   display: flex;
   flex-direction: column;
