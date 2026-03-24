@@ -34,7 +34,6 @@ function Contacto() {
       });
       
       
-      // Simulación temporal para que pruebes la UI
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       setEstadoEnvio('¡Mensaje enviado con éxito!');
