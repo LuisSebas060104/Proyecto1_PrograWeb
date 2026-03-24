@@ -22,7 +22,7 @@ function Cotizador() {
       return;
     }
 
-    // Lógica de negocio (puedes ajustar estas tarifas)
+    // Lógica de negocio
     let costoBase = origen === 'Misma ciudad' ? 25 : origen === 'Otro departamento' ? 45 : 150;
     let costoPorPeso = peso * 5; 
     let recargoServicio = nivelServicio === 'expres' ? 1.5 : 1; // 50% extra por servicio exprés
