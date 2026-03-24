@@ -13,17 +13,14 @@ import Contacto from './componentes/Contacto';
 function App() {
   return (
     <div className="contenedor-principal">
-      {/* El menú de navegación se queda en la parte superior */}
       <Navegacion />
 
-      {/* Contenido principal de la página */}
       <main>
         <Inicio />
         <Servicios />
         <Funcionamiento />
         <Cobertura />
         
-        {/* Aquí va el componente con la lógica que armamos antes */}
         <Cotizador />
         
         <Nosotros />
